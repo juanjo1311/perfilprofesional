@@ -135,7 +135,7 @@ form_register.addEventListener("submit", name_event =>{
     //console.log(nombres);
     if(nombres.ariaValueMax.length <= 2 || apellidos.ariaValueMax.lengt <=2){
         info+="NOMBRES Y/O APELLIDOS INVALIDOS";
-        information.style.colo = "red";
+        information.style.color = "red";
     }
     else{
         alert(nombres.value + " " + apellidos.value);
